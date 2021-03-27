@@ -17,3 +17,4 @@
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 git clone https://github.com/kenzok8/openwrt-packages package/openwrt-packages
 git clone https://github.com/kenzok8/small package/openwrt-small
+git clonehttps://github.com/jerrykuku/luci-theme-argon package/lean/luci-theme-atmaterial
