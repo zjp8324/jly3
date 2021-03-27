@@ -19,3 +19,4 @@ git clone https://github.com/kenzok8/openwrt-packages package/openwrt-packages
 git clone https://github.com/kenzok8/small package/openwrt-small
 rm -rf package/lean/luci-theme-argon
 git clone https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-atmaterial
+sed -i '/set luci.main.mediaurlbase=\/luci-static\/bootstrap/d' feeds/luci/themes/luci-theme-bootstrap/root/etc/uci-defaults/30_luci-theme-bootstrap
